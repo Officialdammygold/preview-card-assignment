@@ -1,0 +1,51 @@
+body{
+  background-color:#0a0c1b;
+}
+.div1{
+  display: flex;
+  background-color:#1c1938 ;
+  color: white;
+  width: 80%;
+  height: 25rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+h1{
+  margin-bottom: 10%;
+}
+#fir{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 4%;
+  height: 22rem;
+  width: 40%;
+}
+#in{
+  color: purple;
+}
+#pi{
+  margin-bottom: 10%;
+}
+#count{
+  display: flex;
+  gap: 10%;
+}
+#sec{
+  height: 25rem;
+  width: 50%;
+  position: relative;
+}
+img{
+  position: absolute;
+  height: 25rem;
+  width: 100%;
+}
+#bb{
+  position: absolute;
+  height: 25rem;
+  width: 100%;
+  background-color: purple;
+  opacity: 50%;
+}
