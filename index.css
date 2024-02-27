@@ -36,6 +36,14 @@ h1{
   height: 25rem;
   width: 50%;
   position: relative;
+
+}
+#secc{
+  display: none;
+  height: 25rem;
+  width: 50%;
+  position: relative;
+  
 }
 img{
   position: absolute;
@@ -48,4 +56,46 @@ img{
   width: 100%;
   background-color: purple;
   opacity: 50%;
+}
+@media screen and (max-width:600px){
+  .div1{
+    display: block;
+    background-color:#1c1938 ;
+    color: white;
+    width: 90%;
+    height: 45rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20%;
+
+  } 
+  #count{
+    display: block;
+    gap: 10%;
+  }
+  #sec{
+    display: none;
+  }
+  #secc{
+    display: block;
+  }
+  img{
+    height: 15rem;
+    width: 200%;
+  }
+  #bb{
+    height: 15rem;
+    width: 200%;
+  }
+  h1{
+    margin-top: -40%;
+  }
+  #fir{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 4%;
+    height: 22rem;
+    width: 90%;
+    text-align: center;
+  }
 }
